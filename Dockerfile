@@ -1,4 +1,4 @@
-FROM osrm/osrm-backend:v5.20.0
+FROM osrm/osrm-backend:v5.25.0
 LABEL maintainer="Asdrubal Gonzalez"
 ENV pbf=georgia-latest.osm.pbf version=1.1 osrm=georgia-latest.osrm
 VOLUME [ "./:/data" ]
